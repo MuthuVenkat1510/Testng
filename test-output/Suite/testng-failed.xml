@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="Username" value="muthuh"/>
+    <parameter name="Password" value="1234657"/>
+    <classes>
+      <class name="org.testng.ParameterPassing">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="BeforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="AterClass"/>
+          <include name="tc1"/>
+        </methods>
+      </class> <!-- org.testng.ParameterPassing -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
